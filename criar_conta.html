@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Criar Conta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Criar Conta</h1>
+    <form id="criarForm" onsubmit="return false;">
+      <label for="nome">Nome</label>
+      <input id="nome" type="text" placeholder="Seu nome" />
+
+      <label for="emailCriar">E-mail</label>
+      <input id="emailCriar" type="email" placeholder="seu@exemplo.com" />
+
+      <label for="senhaCriar">Senha</label>
+      <input id="senhaCriar" type="password" placeholder="Senha" />
+
+      <button id="cadastrarBtn" type="button">Cadastrar</button>
+    </form>
+
+    <div class="links">
+      <a href="index.html">Já tenho conta (Login)</a>
+    </div>
+  </main>
+
+  <script src="java.js"></script>
+</body>
+</html>

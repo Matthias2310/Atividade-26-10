@@ -1,0 +1,66 @@
+ :root {
+	 --bg: #f4f7fb;
+	 --card: #ffffff;
+	 --accent: #2b6ef6;
+	 --text: #222;
+ }
+ * {
+	 box-sizing: border-box;
+	 font-family: Segoe UI, Roboto, Arial, sans-serif;
+ }
+ body {
+	 margin: 0;
+	 background: var(--bg);
+	 color: var(--text);
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 100vh;
+ }
+ .card {
+	 background: var(--card);
+	 padding: 24px;
+	 border-radius: 8px;
+	 box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+	 width: 320px;
+ }
+ h1 {
+	 margin-top: 0;
+	 font-size: 1.4rem;
+	 text-align: center;
+ }
+ label {
+	 display: block;
+	 margin-top: 12px;
+	 font-size: 0.9rem;
+ }
+ input {
+	 width: 100%;
+	 padding: 10px;
+	 margin-top: 6px;
+	 border: 1px solid #d7dbe6;
+	 border-radius: 6px;
+ }
+ button {
+	 margin-top: 16px;
+	 width: 100%;
+	 padding: 10px;
+	 background: var(--accent);
+	 color: #fff;
+	 border: none;
+	 border-radius: 6px;
+	 cursor: pointer;
+ }
+ .links {
+	 margin-top: 12px;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ .links a {
+	 font-size: 0.9rem;
+	 color: var(--accent);
+	 text-decoration: none;
+ }
+ .links a:hover {
+	 text-decoration: underline;
+ }
